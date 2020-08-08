@@ -1,0 +1,119 @@
+@media(min-width:1018px){
+  .nav-1000{
+    display:none;
+  }
+}
+
+
+
+
+@media(max-width:1018px){
+  nav{
+    display: none;
+  }
+
+
+
+  .header-text{
+    max-height: 820px;
+  }
+
+  .header-text h2{
+    font-size: 21px;
+    letter-spacing: 2px;
+    color: #111;
+    opacity:.9;
+  }
+
+  .header-text .header-setumei{
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+
+  }
+
+  .header-text .btn{
+    margin-bottom: -245px;
+    margin-top: -260px;
+  }
+
+  header{
+    background-position: 70%;
+  }
+
+  .ando-natu{
+    max-height: 297px;
+  }
+
+  .ando-text{
+    margin: 0 auto;
+    padding-top:20px;
+  }
+
+  .ando-text-hide{
+    display: none;
+  }
+
+  .syouhin-syoukai{
+    height: 777px;
+  }
+
+ 
+
+  .syouhin-syoukai ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin: 0 auto;
+  }
+
+  
+
+  .syouhin-syoukai-hide{
+    display: none;
+  }
+
+
+  
+  .tyuumon h3{
+    font-size: 22px;
+  }
+
+
+
+  .number p{
+    font-size: 23px;
+  }
+
+  
+
+  .info{
+    height:920px;
+  }
+
+  
+  
+
+  
+ 
+
+}
+
+
+@media(max-width:1180px){
+  .info-header{
+    text-align: center;
+    height: 300px;
+    width: 100%;
+  }
+}
+
+
+
+
+
+@media(max-width:450px){
+  header img{
+    right:20%;
+   
+  }
+}

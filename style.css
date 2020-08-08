@@ -1,0 +1,478 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "ヒラギノ明朝 ProN";
+  width: 100%;
+  margin: 0;
+}
+
+.wrap{
+  overflow: hidden;
+}
+
+ul{
+  list-style: none;
+}
+
+
+nav{
+  height:67px;
+  background-color:#fff;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+  opacity:0.86;
+  
+}
+
+nav ul{
+  display: flex;
+  
+
+}
+
+nav li{
+  justify-content: space-between;
+  list-style: none;
+  margin-right:25px;
+  font-size:13px;
+  color:#000;
+  font-family: "ヒラギノ明朝 ProN W6";
+}
+
+.nav-1000{
+  height: 58px;
+  background-color:#fff;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+  opacity:0.86;
+}
+
+.nav-1000 ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+#left{
+  padding-top: 10px;
+}
+
+#right{
+  padding: 20px 20px 20px 0;
+}
+
+.active{
+  display: none;
+  width:100%;
+  height:100%;
+  background-color:#000;
+  color: white;
+  z-index: 10000;
+  position:fixed;
+  
+}
+
+.active{
+  cursor: pointer;
+}
+
+.active-title{
+  font-size:20px;
+  text-align: center;
+  padding-top:30px;
+}
+
+.active-menu{
+  margin-left:40px;
+}
+
+
+.text{
+  padding-top:25px;
+}
+
+nav img{
+  margin-right:40px;
+  padding:0;
+  padding:15px 0;
+}
+
+header{
+  height:600px;
+  background-image:url(http://www.matsukazeya.com/images/home/main.jpg);
+  background-position:right;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+header img{
+  position: absolute;
+  left: 50%;
+  top: 37%;
+  margin: 0 auto;
+  transform: translate(-50%,-59%);
+  
+}
+
+
+.header-text{
+  text-align: center;
+  line-height: 30px;
+  height: 680px;
+}
+
+.header-text h2{
+  margin-top:124px;
+  margin-bottom:63px;
+  letter-spacing: 6px;
+  opacity:0.7;
+  font-family: "ヒラギノ明朝 ProN";
+}
+
+.header-text p{
+  opacity:0.88;
+  letter-spacing: 2px;
+  font-family: "ヒラギノ明朝 ProN";
+  line-height: 33px;
+}
+
+.header-text img{
+  margin-top:35px;
+}
+
+.ceo{
+  margin-top:35px;
+  margin-bottom:52px;
+}
+
+.btn{
+  border:2px solid #777;
+  padding:5px 50px;
+  border-radius: 0%;
+  text-align: center;
+  display:inline-block;
+}
+
+.btn:hover{
+  background-color:#000;
+  color:white;
+  transition: 0.7s;
+}
+
+.btn-text{
+  font-family: "ヒラギノ明朝 ProN";
+  letter-spacing: 2px;
+}
+
+
+.ando-natu{
+  background-image: url(http://www.matsukazeya.com/images/home/bg_donuts.jpg);
+  background-size: cover;
+  background-position:50%;
+  height:530px;
+  padding-right:30px;
+  line-height: 33px;
+}
+
+.ando-text{
+  padding-top:110px;
+  padding-bottom:105px;
+  float: right;
+  opacity:0.72;
+  margin-right: 60px;
+}
+
+.ando-natu p{
+  letter-spacing: 1px;
+  font-family: "ヒラギノ明朝 ProN";
+  font-size:19px;
+}
+
+.ando-text-show{
+  text-align: center;
+  margin-bottom:50px;
+}
+
+.ando-text-show span{
+  font-size:30px;
+
+  
+}
+
+.ando-text-hide{
+  padding-top:-20px;
+  
+}
+
+.ando-text-hide-btn{
+  text-align:center;
+}
+
+
+
+.syouhin-syoukai{
+  height:646px;
+  background-color:#f7f7f4;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: "ヒラギノ明朝 ProN";
+}
+
+.syouhin-syoukai h2{
+  padding-top:99px;
+  padding-bottom:50px;
+  font-weight:normal;
+  opacity:0.8;
+}
+
+.syouhin-syouki p{
+  color:#777;
+}
+
+
+
+
+.syouhin-syoukai ul{
+  display: flex;
+  padding-top:50px;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.syouhin-syoukai li{
+  margin-right:30px;
+  width: 20%;
+
+}
+
+.btn-text{
+  text-align: center;
+  margin:0 auto;
+}
+
+
+
+#btn-product{
+  margin-top: 25px;
+}
+
+
+.news{
+  height:357px;
+  text-align: center;
+}
+
+.news h3{
+  padding:97px 0 63px 0;
+  border-bottom:1px solid #EDE9DA; 
+  text-align: center;
+  font-family: "ヒラギノ明朝 ProN";
+}
+
+.news .btn{
+  margin-top:30px;
+}
+
+
+.tyuumon{
+  height:570px;
+  background-color:#f7f7f4;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: "ヒラギノ明朝 ProN";
+}
+
+
+.tyuumon h3{
+  font-weight: normal;
+}
+
+.tyuumon .syoukai{
+  font-size:17px;
+  letter-spacing: 1px;
+  line-height:2em;
+
+}
+
+
+.tyuumon-header{
+  padding-top:98px;
+  padding-bottom:45px;
+  font-size:32px;
+}
+
+.number{
+  padding-top:15px;
+  padding-bottom:58px;
+}
+
+
+.number p{
+  font-size:30px;
+  font-family: "ヒラギノ明朝 ProN";
+  letter-spacing: 2px;
+}
+
+.number .btn{
+  padding:5px 12px;
+  font-family: "ヒラギノ明朝 ProN";
+  margin-top:32px;
+}
+
+
+.info{
+  height:638px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.info h3{
+  padding-top:98px;
+  margin-bottom:50px;
+}
+
+
+
+
+.kaisya-info h4{
+  text-align: left;
+  font-size:20px;
+  padding-bottom:30px;
+  display:flex;
+}
+
+.jusyo{
+  display: flex;
+  text-align: left;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.jusyo2{
+  width:9em;
+}
+
+.phone{
+  display:flex;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+
+.tel-fax{
+  width:9em;
+  text-align: left;
+}
+
+.time{
+  display: flex;
+  text-align: left;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.eigyo-time{
+  width:9em;
+  
+}
+
+
+.holiday{
+  display:flex;
+  text-align: left;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.holiday-header{
+  width:9em;
+}
+
+.a{
+  text-align: center;
+  display: block;
+  margin:17px auto 100px;
+}
+
+.a .btn{
+  padding:6px 14px;
+
+}
+
+.ifrem{
+  padding-bottom:200px;
+}
+
+.footer-info{
+  height:251px;
+  background-color: #000;
+  
+}
+.footer-info .container-fluid{
+  max-width: 1200px;  
+
+}
+
+.ifrem{
+  height:110px;
+}
+
+
+.footer-info{
+  color:white;
+}
+
+.info-header{
+  margin-top:40px;
+  margin-left: 30px;
+  width: 50%;
+}
+
+.info-header  h4{
+  margin:30px 0 13px;
+  font-size: 20px;
+}
+
+.info-header p{
+  letter-spacing: 1px;
+  line-height: 32px;
+}
+
+
+
+
+.header-nav ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:5px 20px;
+  margin-top:40px;
+}
+
+.header-nav a{
+  display: inline-block;
+  text-align: left;
+  color:#fff;
+}
+
+.header-nav p img{
+  margin:0 auto;
+}
+
+.sns-logo{
+  padding-top:17px;
+  text-align: right;
+}
+
+
+.footer p{
+  text-align: center;
+  margin-top:22px;
+  margin-bottom:27px;
+  font-size:14px;
+}
